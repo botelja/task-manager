@@ -9,7 +9,7 @@ Provide the database url at config/default.json.
 For development environments...
 
 ```sh
-$ git clone
+$ git clone git@github.com:botelja/task-manager.git
 $ npm install
 $ npm clientinstall
 $ npm run dev
