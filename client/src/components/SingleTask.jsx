@@ -37,7 +37,7 @@ const SingleTask = ({ location, history }) => {
           <td>{moment(task.created).format('MMMM Do YYYY, h:mm:ss a')}</td>
           <td className="d-flex">
             <EditTask task={task} editTask={editTask} />
-            <DeleteTask className="btn-sm mr-1" removeTask={removeTask} />
+            <DeleteTask className="btn-sm mr-1" style={{width: 50px}} removeTask={removeTask} />
           </td>
           <td>
             <Button
